@@ -1,0 +1,77 @@
+# Basic Python Codes For Assigment purpose
+from calendar import month
+
+
+print ("Welcome to CepiaLabs Cyber Security Practitioner Program 2025")
+print ("This side sachin")
+Batchid = "My Batch id is INT2026-5324"
+
+print (Batchid)
+print ("Now we check how operators works")
+print ("We have taken x = 20 and y = 30")
+x=20 
+y=30
+print ("add",x+y,"subtract",x-y,"multiply",x*y,"divide",x/y)
+print ("Modulas", x%y, "exponents", x**2, "floordivision", x//y)
+print ("x is eual to y =",x==y,
+       "\nx is not eual to y =",x!=y,
+       "\nx is greater than y =",x>y,
+       "\nx is less than y =",x<y,
+       "\nx is greater than or eual to y =",x>=y,
+       "\nx is less than or equal to y =",x<=y)
+print("lets use three operators and, or, not.")
+print (x==20 and x>15 and x<30)
+print(x==10 or x<15 or x>30)
+print(not x==20)
+print("lets take an example how we find some word or value into a para..")
+Para= "cybersecurity is most important skill in future."
+print('skill' in Para)
+Value= [21,22,23,24,25,26,27,28,29,20]
+print (30 in Value)
+print (30 not in Value)
+print("now we find the binay of x and y")
+print(bin(x))
+print(bin(y))
+a=10
+print(a,type(a))
+b=11.5
+print(b,type(b))
+c=10+2j
+print(c,(type(c)))
+#if you want write in different format you can use (''')
+print(''' Cybersecurity is very important today because it
+      protects computers, networks, and data from cyber
+      attacks, hacking, malware, and unauthorized access in
+      the digital world.''')
+#list
+l=[10,20,'ws',30]
+print(l,type(l))
+l[2]=40
+print(l)
+#tuple
+t=(10,20,30,'hello')
+print(t, type(t))
+#dictionary
+d={
+    'Course_name': 'Cybersecurity internship',
+    'Duration': '3 Month'
+}
+print(d['Course_name'])
+print (d,type(d))
+#set
+s={10,20,30,40,50,10,20}
+print(s)
+print(s,type(s))
+#input
+i=input("Name :")
+n=input("contact no")
+p=input("email id")
+u=input("course name")
+t="thankyou for submitting"
+print(t)
+#ifline
+z=int(input("Enter your value"))
+if z%2==0:
+    print (z, "Even number")
+
+
