@@ -1,7 +1,4 @@
 # Basic Python Codes For Assigment purpose
-from calendar import month
-
-
 print ("Welcome to CepiaLabs Cyber Security Practitioner Program 2025")
 print ("This side sachin")
 Batchid = "My Batch id is INT2026-5324"
