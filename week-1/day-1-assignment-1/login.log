@@ -1,0 +1,6 @@
+Jan 14 12:01:23 server sshd[12345]: Accepted password for user1 from 192.168.1.2 port 54321 ssh2
+Jan 14 12:05:12 server sshd[12346]: Failed password for invalid user admin from 192.168.1.10 port 54322 ssh2
+Jan 14 12:10:45 server sshd[12347]: Failed password for root from 192.168.1.3 port 54323 ssh2
+Jan 14 12:15:02 server sshd[12348]: Accepted password for user2 from 192.168.1.4 port 54324 ssh2
+Jan 14 12:20:33 server sshd[12349]: failed password for guest from 192.168.1.5 port 54325 ssh2
+Jan 14 12:25:01 server sshd[12350]: Accepted password for user3 from 192.168.1.6 port 54326 ssh2
