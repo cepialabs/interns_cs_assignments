@@ -1,0 +1,55 @@
+What cybersecurity professionals actually do (red team, blue team, purple team)
+
+Ans. Cybersecurity experts are in charge of defending networks, systems, and data against online attacks. Red Team, Blue Team, and Purple Team roles are frequently used to categorize their work.
+
+Red Team: - This team more focus on offensive side so basically this team
+Perform penetration testing, perform vulnerability assessment into networks, applications and system. Also reporting Security gaps and recommend improvements.
+
+Blue Team: - This team more focus on defensive side so this team basically work on incident response, Threat detection, Analysing logs and security alerts. Their goal is implementing security control and policies.
+
+Purple Team: - It established collaboration between red and blue team members during and after the simulation, sharing their knowledge and resources to mitigate system vulnerabilities and strength their organizations security posture.
+
+Ethical hacking vs illegal hacking 
+
+Ans. Ethical hacking its is basically you perform hacking into a system or network or you access the vulnerability by authorized permission or conducted under rules of engagement.
+
+Illegal Hacking :- Its clear by its name you can perform hacking for your own benefits and it involves unauthorizes access to system with malicious intent.
+
+Responsible disclosure 
+
+It involves reporting security flaws in a way that prioritizing fixing them before they are exploited. During penetration testing follow responsible disclosure rule to surely report vulnerabilities to organizations. Early disclosure of a vulnerability help attacker to exploit the weakness before they are patched.
+
+It helps the organization to verify issue, develop patches and reduce the risk of cyber attack.
+
+Why isolated labs are mandatory
+
+Isolated labs are important for controlled environments, used for learning, testing and also used for try different tools to perform activity in a safe labs.
+The main purpose of using these kinds of labs is to prevent our main machine to any accidental damage. We can safely test malware and exploit violations. 
+
+Virtualization basics (host OS vs guest OS) 
+
+It refers to creating virtual instances of operating system that run concurrently on the same physical address. These instances are isolated from each other and managed by a virtualization layer such as hypervisor
+Eg. Virtual box, Vm Ware.
+
+Host OS - 
+The Primary operating system that run the hypervisor. Example - Windows, Linux, Mac Os.
+Guest Os –
+The OS running inside the Virtual machine. Example - Kali linux, Ubuntu, Windows server.
+
+Overview of Kali Linux ecosystem 
+
+Kali linux is a Debian based operating system and there are many pre-installed tools which help in perform penetration testing. Some tools like 
+Nmap (Port scanning), The Harvester(Information gathering), Nikto (vulnerability analysis), Hydra (Password attack),Forensic tool also.
+
+Kali Linux is widely used by ethical hackers, penetration testers, and cybersecurity professionals for learning and professional assessments.
+
+
+
+
+
+
+
+
+
+
+
