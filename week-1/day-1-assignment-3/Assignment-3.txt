@@ -6,22 +6,22 @@ A cybersecurity lab is a controlled environment for testing malware, attacks, an
 - Isolation ensures that attacks remain confined to the laboratory.
 
 2. Avoid interference with production systems
-Labs simulate attacks or penetration tests that can crash the servers or their software.
-These tests can disrupt real business systems if not separated, causing down times or losses of data.
+- Labs simulate attacks or penetration tests that can crash the servers or their software.
+- These tests can disrupt real business systems if not separated, causing down times or losses of data.
 
 3. Safe Experimentation
-Tests of various tools, scripts, or configurations by students and professionals alike can be done without risk.
-Isolation allows the testing of hazardous exploits in safety.
+- Tests of various tools, scripts, or configurations by students and professionals alike can be done without risk.
+- Isolation allows the testing of hazardous exploits in safety.
 
 4. Comply with Regulations and Law
-Some labs handle sensitive data or the simulation of attacks on systems.
-Isolation ensures that experiments cannot accidentally affect other users, or violate legal rules.
+- Some labs handle sensitive data or the simulation of attacks on systems.
+- Isolation ensures that experiments cannot accidentally affect other users, or violate legal rules.
 
 5. Correct Results
-Isolation helps ensure that everything in the lab is well under control and predictable, 
+- Isolation helps ensure that everything in the lab is well under control and predictable, 
 which is a very important consideration during lab work involving vulnerabilities or newly proposed security solutions.
-As for connected networks, there may be noise or sudden variables.
+- As for connected networks, there may be noise or sudden variables.
 
 6. Virtualization Technology Adoption
-Labs for cybersecurity may employ the use of virtual machines/virtual sandboxes.
-In this manner, if it gets compromised, it wouldn’t have any effect upon the host OS or network.
+- Labs for cybersecurity may employ the use of virtual machines/virtual sandboxes.
+- In this manner, if it gets compromised, it wouldn’t have any effect upon the host OS or network.
