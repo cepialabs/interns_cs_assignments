@@ -1,4 +1,5 @@
-A cybersecurity lab is a controlled environment for testing malware, attacks, and vulnerabilities in a safe manner. Isolation is key in these scenarios to avoid accidental destruction and for security reasons. Here's why:
+A cybersecurity lab is a controlled environment for testing malware, attacks, and vulnerabilities in 
+a safe manner. Isolation is key in these scenarios to avoid accidental destruction and for security reasons.
 
 1. Avoid Infection of the Primary Network
 - Cybersecurity labs are usually involved in operation with malware, exploits, or vulnerable systems.
