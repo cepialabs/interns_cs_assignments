@@ -1,0 +1,41 @@
+			What Cyber security Professionals Actually Do
+
+Summery:
+
+-So mainly Cyber security is the practice of protecting computers , networks , data from unauthorized access or damage.
+
+-It protect personal data , bank credentials from hackers and cyber criminals.
+
+-There are 3 types of ethical hackers.
+ 1.Red Team (Attacker Team)
+ 2.Blue Team (Defender Team))
+ 3.Purple team
+
+1.Red Team 
+-Simulate real cyber attack
+-Find Vulnerabilities
+-Main objective break into system legally to identify weakness
+
+Methods used-
+-Reconnaissance (info gathering)
+-Exploitation (Finding Weaknessesin system)
+-Reporting weakness
+
+Tools-Metasploit , Nmap , Burp suite , Kali Linux
+
+2.Blue Team
+-Protect systems 24/7.
+-Monitor logs and traffic.
+-Detects threats 
+
+Methods used
+-Continuous Monitoring(Watching Network traffic)
+-Threat detection
+
+Tools-SIEM , Firewall , Soc 
+
+3.Purple Team
+-It is combination of Blue and Red Team
+-They both work together
+-Share attack and defence
+
