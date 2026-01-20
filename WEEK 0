@@ -1,1 +1,31 @@
-
+# basic python codes for cepia lab internship 
+print("cepia labs")
+print("internship programme , 2026")
+intern = "cybersecurity" 
+print (intern)
+print ({1,2})
+internship_id =1111
+print(internship_id)
+print (2-3)
+#boolean
+print (9>7)
+#float 
+print (2.3 +3.4)
+director = "NIGAM SIR"
+print (director) 
+#conditional
+status = [1, 2, 3, 4]
+if status == 1: 
+     print (ok)
+print(2/3)
+#loops
+for cybersec in [1,2,3,4,5]:
+     print (cybersec)
+for cybersec in range (4):
+     print ("welcome to cepia labs")
+for cepia in ["ai/ml", "cybersecurity","deVOPS"]:
+     print(cepia)
+     cepia_lab =["intern","training"] 
+     for work in cepia_lab:
+          print (work)
+         print ("thankyou _very much ")
