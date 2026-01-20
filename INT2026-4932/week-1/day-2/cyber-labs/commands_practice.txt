@@ -1,0 +1,46 @@
+Linux Commands for Security Practice
+
+1. pwd  
+Shows current working directory.
+
+2. ls  
+Lists files and folders.
+
+3. cd folder  
+Move into a folder.
+
+4. cd ..  
+Move one level back.
+
+5. mkdir lab  
+Create folder.
+
+6. rm file.txt  
+Delete file.
+
+7. rm -r lab  
+Delete folder and contents.
+
+8. cat file.txt  
+Show file content.
+
+9. nano file.txt  
+Edit file.
+
+10. chmod 755 file.txt  
+Change permissions.
+
+11. sudo apt update  
+Update package list.
+
+12. sudo apt install nmap  
+Install tool.
+
+13. ip a  
+Show IP inf0
+
+14. ping google.com  
+Test internet/connection.
+
+15. msfconsole
+open metasploit 
