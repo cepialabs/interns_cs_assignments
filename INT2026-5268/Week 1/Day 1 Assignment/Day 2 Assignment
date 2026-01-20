@@ -1,0 +1,264 @@
+1. `ls`
+
+**Purpose:** Lists files and directories in the current directory.
+**Example:**
+
+```bash
+ls
+ls -l
+ls -a
+```
+
+* `-l` shows detailed information (permissions, size, date).
+* `-a` shows hidden files.
+
+---
+
+## 2. `pwd`
+
+**Purpose:** Displays the current working directory.
+**Example:**
+
+```bash
+pwd
+```
+
+---
+
+## 3. `cd`
+
+**Purpose:** Changes the current directory.
+**Example:**
+
+```bash
+cd /home/user/Documents
+cd ..
+```
+
+* `..` moves one directory up.
+
+---
+
+## 4. `mkdir`
+
+**Purpose:** Creates a new directory.
+**Example:**
+
+```bash
+mkdir projects
+mkdir -p work/java/app
+```
+
+* `-p` creates parent directories if they don’t exist.
+
+---
+
+## 5. `rmdir`
+
+**Purpose:** Deletes an empty directory.
+**Example:**
+
+```bash
+rmdir old_folder
+```
+
+---
+
+## 6. `rm`
+
+**Purpose:** Removes files or directories.
+**Example:**
+
+```bash
+rm file.txt
+rm -r folder
+rm -f file.txt
+```
+
+* `-r` removes directories recursively.
+* `-f` forces deletion without confirmation.
+
+---
+
+## 7. `cp`
+
+**Purpose:** Copies files or directories.
+**Example:**
+
+```bash
+cp file1.txt file2.txt
+cp -r dir1 dir2
+```
+
+---
+
+## 8. `mv`
+
+**Purpose:** Moves or renames files and directories.
+**Example:**
+
+```bash
+mv oldname.txt newname.txt
+mv file.txt /home/user/
+```
+
+---
+
+## 9. `cat`
+
+**Purpose:** Displays file contents.
+**Example:**
+
+```bash
+cat file.txt
+```
+
+---
+
+## 10. `less`
+
+**Purpose:** Views large files one page at a time.
+**Example:**
+
+```bash
+less file.txt
+```
+
+* Press `q` to quit.
+
+---
+
+## 11. `head`
+
+**Purpose:** Shows the first lines of a file.
+**Example:**
+
+```bash
+head file.txt
+head -n 5 file.txt
+```
+
+---
+
+## 12. `tail`
+
+**Purpose:** Shows the last lines of a file.
+**Example:**
+
+```bash
+tail file.txt
+tail -f logfile.log
+```
+
+* `-f` follows file updates in real time.
+
+---
+
+## 13. `chmod`
+
+**Purpose:** Changes file permissions.
+**Example:**
+
+```bash
+chmod 755 script.sh
+```
+
+* Controls read, write, and execute permissions.
+
+---
+
+## 14. `chown`
+
+**Purpose:** Changes file owner and group.
+**Example:**
+
+```bash
+chown user:group file.txt
+```
+
+---
+
+## 15. `ps`
+
+**Purpose:** Displays running processes.
+**Example:**
+
+```bash
+ps
+ps aux
+```
+
+* `aux` shows all system processes.
+
+---
+
+## 16. `top`
+
+**Purpose:** Shows real-time system resource usage.
+**Example:**
+
+```bash
+top
+```
+
+---
+
+## 17. `kill`
+
+**Purpose:** Terminates a process by its PID.
+**Example:**
+
+```bash
+kill 1234
+kill -9 1234
+```
+
+* `-9` forcefully kills the process.
+
+---
+
+## 18. `df`
+
+**Purpose:** Displays disk space usage.
+**Example:**
+
+```bash
+df -h
+```
+
+* `-h` shows human-readable sizes.
+
+---
+
+## 19. `du`
+
+**Purpose:** Shows directory or file size.
+**Example:**
+
+```bash
+du -sh folder
+```
+
+---
+
+## 20. `man`
+
+**Purpose:** Displays the manual page for a command.
+**Example:**
+
+```bash
+man ls
+```
+
+---
+
+### Summary
+
+These commands form the foundation of Linux system navigation, file management, process control, and system monitoring. Mastering them is essential for effective Linux administration and development.
+
+If you want, I can also:
+
+* Convert this into **PDF or DOC format**
+* Add **diagrams**
+* Simplify it for **exam notes**
+* Expand it to **30+ commands**
