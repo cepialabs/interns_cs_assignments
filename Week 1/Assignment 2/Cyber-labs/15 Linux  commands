@@ -1,0 +1,27 @@
+ifconfig - To check your ip adress or network configuration.
+
+ls - To list all the files and folder.
+
+nano <file name> - to edit or create a text file.
+
+mkdir <dir name> - To create a directory/Folder.
+
+mv - To move the file.
+
+cp - To copy the file.
+
+rm - To remove the file.
+
+man - It means the manual you can see all flags of a coomands.
+
+chmod - To give the permission of read, write, or executable to a file.
+
+echo- To print the output you give in this command.
+
+netstat - To check network established or ports which are connected.
+
+theHarvester <url> - To find the information of a particular url.
+
+grep - To find a word, pattern or a para into a file.
+
+pwd - It shows the print working directory where you are currently present
