@@ -1,0 +1,57 @@
+Lab Procedure: OWASP Juice Shop Setup on Kali Linux
+This laboratory environment utilizes Kali Linux 2025.3 running on a VirtualBox VM to host and interact with the OWASP Juice Shop, a deliberately insecure web application for security training.
+
+1. Environment Verification
+Before starting, verify the host and network environment:
+
+Operating System: Kali Linux 2025.3 (virtualized via Oracle VirtualBox).
+
+Network: The application is hosted locally at http://localhost:3000.
+
+Access: Verified via Firefox browser.
+
+2. Implementation Steps and Commands
+To achieve the setup shown in the image, the following commands are typically executed in the Kali terminal.
+
+A. Install Dependencies (Node.js)
+Juice Shop is a Node.js application. Ensure the runtime is installed:
+
+Bash
+
+sudo apt update
+sudo apt install -y nodejs npm
+B. Clone and Initialize the Repository
+The source code is retrieved from the official OWASP GitHub repository:
+
+Bash
+
+# Clone the repository
+git clone https://github.com/juice-shop/juice-shop.git
+
+# Navigate to the directory
+cd juice-shop
+
+# Install application dependencies
+npm install
+C. Launching the Application
+Once dependencies are installed, start the server:
+
+Bash
+
+# Start the application
+npm start
+Note: The server will initialize and begin listening on port 3000 by default.
+
+3. Accessing the Application
+Open the Firefox browser within Kali Linux.
+
+Navigate to the URL: http://localhost:3000/#/.
+
+Confirm the OWASP Juice Shop header and "All Products" dashboard are visible.
+
+4. Technical Observations from the Environment
+Virtualization: The user is running kali-linux-2025.3-virtualbox-amd64.
+
+Endpoint: The URL http://localhost:3000/#/ indicates the application is using client-side routing (Angular).
+
+Browser Configuration: The browser has security bookmarks pre-configured, including OffSec, Exploit-DB, and Google Hacking DB.
