@@ -1,0 +1,24 @@
+2. Step-by-Step Methodology
+Phase A: Network Traffic Monitoring
+Open Network Tab: Navigate to the Network tab in DevTools.
+
+Configuration: * Enable Preserve Log to ensure data isn't lost during page redirects.
+
+Set throttling to No Throttling (or "Fast 3G" if testing for latency).
+
+Capture: Refresh the page to capture the initial waterfall of requests.
+
+Filter & Inspect: * Filter by Fetch/XHR to isolate API calls from static assets (CSS/JS).
+
+Click on a specific request (e.g., POST or collect) to inspect Headers, Payload, and Response tabs.
+
+Identify Status Codes (e.g., 200 OK, 204 No Content, 302 Redirect).
+
+Phase B: Console & Error Diagnosis
+Open Console Tab: Switch to the Console tab to view client-side logs.
+
+Filter Levels: Ensure Errors and Warnings are selected in the filter dropdown.
+
+Code Traceability: Click the source link (e.g., tattoo-submission-form:1) to jump to the exact line of code in the Sources tab where the error originated.
+
+Log Analysis: Document specific failures, such as Error retrieving a token, which indicates a breakdown in session management or API authentication.
