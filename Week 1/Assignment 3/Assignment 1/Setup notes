@@ -1,0 +1,13 @@
+Application Name- OWASP Juice Shop
+Operating System:- Kali Linux (Vm Ware)
+Purpose:- OWASP juice shop is an intentionally vulnerable web application is is used for practicing the OWASP Top 10 Web Vulnerability.
+
+Step 1. Run sudo apt update to update all local packages.
+step 2. Run sudo apt install docker.io (to download the docker).
+step 3. Run sudo systemctl enable docker --now (Our docker automatically starts whenever our system boots).
+step 4. To check the status of docker service by:- sudo systemctl status docker
+step 5. now Run sudo docker pull bkimminich/juice-shop command
+step 6. Now run sudo ocker run --rm -p 3000:3000 bkimminich/juice-shop  command
+step 7. Now go to youe browser and put localhost:3000 , your OWASP juice shop is installed in your machine.
+
+
