@@ -1,0 +1,14 @@
+Tool used: Chrome DevTools{Network tab)
+Steps followed:
+1. The login page was opened in the google chrome browser.
+URL:dhhodisha.in/index.php
+2. Right click on page then click on Inspect to open Chrome DevTools.
+3. The Network tab was selected in DevTools.
+4.The username and password were entered in the login form.
+Parameters-
+Username:Admin
+Password:Admin
+
+Obersvation:- When we try to login we capture a POST request,in this username and password send as a form data to server.
+password is maskerd/encrypted form and in response we get status code (200 OK).By using POST method the sensitive data Url 
+is visible. confirming that the authentication process was completed succesfully.
