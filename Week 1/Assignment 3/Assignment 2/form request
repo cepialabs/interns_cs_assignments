@@ -1,0 +1,13 @@
+Tools Used: Google Chrome Devtools(Network Tab)
+URL:inlinehomogenizer.in/formsubmisiion
+Parameters: Name, Email, Contact no,  Messages
+Step Followed:
+1. A wbepage contaning a form was opened in google chrome. Example:inlinehomogenizer.in/formsubmisiion
+2. On the page click right and click inspect it open the DevTools.
+3. The Network tab was opened to monitor network activity.
+4. Refresh the page to capture all the request.
+5. Then submit button was clicked and the form submission request was captured.
+
+Observation: When the foem was submitted a POST request was generated and visible in the Network Tab,
+The form data was sent to the server as a part of the reuest payload. The request headers and form data were clearly visible.
+The server returned a succesfull response, indicating that the form data was recives and processed correctly.
