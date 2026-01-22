@@ -1,0 +1,32 @@
+Security Testing Notes
+
+Tester Name: Aayush
+Environment: Kali Linux
+Application Tested: DVWA (Damn Vulnerable Web Application)
+Testing Type: Web Application Security Testing
+
+Scope:
+The scope of testing was limited to identifying and exploiting Cross Site Scripting (XSS) vulnerabilities in the DVWA application. Testing was performed only for learning and educational purposes in a controlled lab environment.
+
+Target:
+The target application was DVWA running locally on Apache web server. The specific module tested was XSS (Reflected) at LOW security level.
+
+Application URL:
+http://localhost/dvwa/
+
+Observations:
+The application reflects user-supplied input directly into the response without proper validation or output encoding. JavaScript payloads injected into the input field were executed successfully in the browser. This allowed execution of arbitrary scripts and leakage of sensitive information such as session cookies.
+
+Questions:
+Why does the application not sanitize user input before reflecting it?
+How can output encoding prevent XSS attacks?
+What additional security mechanisms can be used to mitigate XSS vulnerabilities?
+
+Learning:
+Learned how Reflected XSS vulnerabilities occur due to improper input handling.
+Understood how attackers can steal session cookies using JavaScript.
+Gained hands-on experience with setting up an attacker server and exploiting XSS.
+Learned the importance of secure coding practices and browser-side protections.
+
+Conclusion:
+This task helped in understanding the real-world impact of XSS vulnerabilities and how they can be exploited to compromise user sessions. Proper input validation, output encoding, and secure cookie settings are essential to prevent such attacks.
