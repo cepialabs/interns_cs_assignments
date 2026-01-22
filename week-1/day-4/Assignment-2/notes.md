@@ -36,8 +36,8 @@ This note documents observations and analysis of potential security issues withi
 - What additional steps could be taken to prevent **side-channel leaks** in web applications?  
 
 ## Learning
-- Even front-end behavior can inadvertently **leak sensitive information**, even if server-side logic is secure.  
-- User enumeration does not require explicit error messages; **UI state changes can serve as a side channel**.  
-- Structured note-taking using headings helps track vulnerabilities, observations, questions, and lessons learned in a **professional, clear manner**.  
-- Documenting observations in **clean Markdown format** improves readability, reproducibility, and reviewability.  
-- Small, detailed notes like these can later support **formal reports or presentations**, bridging practical testing with documentation skills.
+- Client-side behavior can inadvertently **leak sensitive information**, even without server-side error messages.  
+- UI state changes (fields enabling/disabling) can serve as a **side channel for user enumeration**.  
+- Valid vs invalid account detection can be done **entirely on the client side**, which attackers could automate.  
+- Security testing must include **front-end interaction analysis**, not just server responses.  
+- Observing how forms react to input gives insight into **logic flaws and potential attack vectors**.
