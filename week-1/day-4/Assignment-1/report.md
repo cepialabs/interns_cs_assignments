@@ -44,15 +44,3 @@ The vulnerability is demonstrated by the following observations:
 - **Interpretation:** The difference in UI behavior allows an attacker to distinguish invalid emails from valid ones without submitting the form.  
 
 ![Password reset fields disabled for invalid user](images/invalid_email.png)
-
----
-
-## Summary
-This report highlights a **client-side user enumeration flaw** in the OWASP Juice Shop password reset workflow. While the application does not explicitly leak information via messages, the **UI behavior itself serves as a side-channel**, revealing which users are registered.  
-
-Mitigation measures include:
-- Removing client-side indicators that differentiate valid from invalid users.
-- Implementing server-side rate limiting and uniform responses.
-- Adding CAPTCHA or other mechanisms to prevent automated enumeration.
-
-This type of report demonstrates the importance of reviewing not only server-side logic but also **front-end behavior** when assessing security risks.
