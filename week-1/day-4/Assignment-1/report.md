@@ -39,7 +39,7 @@ The vulnerability is demonstrated by the following observations:
 ---
 
 ### Case 2: Invalid User
-- **Input:** A non-existent email (e.g., `randomuser12345@notreal.com`)  
+- **Input:** A non-existent email (e.g., `wrong_email@gmail.com`)  
 - **Behavior Observed:** Security question, new password, and confirm password fields **remain disabled** and cannot be edited.  
 - **Interpretation:** The difference in UI behavior allows an attacker to distinguish invalid emails from valid ones without submitting the form.  
 
