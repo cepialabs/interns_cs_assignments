@@ -76,14 +76,14 @@ Based on UI behavior, page loading patterns, and general application structure:
 
 Based on navigation elements and URL behavior (SPA routing):
 
-/#/login
-/#/register
-/#/search
-/#/basket
-/#/about
-/#/contact
-/#/profile
-/#/logout
+- /#/login
+- /#/register
+- /#/search
+- /#/basket
+- /#/about
+- /#/contact
+- /#/profile
+- /#/logout
 
 ### Notes
 - Routes use hash (`#`) notation, indicating client-side routing  
