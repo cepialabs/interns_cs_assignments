@@ -1,0 +1,44 @@
+OWASP Juice Shop – Observation Report
+1. Purpose of the Website
+
+The OWASP Juice Shop is an intentionally vulnerable web application designed for learning and practicing web application security. It is used by students and security professionals to understand and test common web vulnerabilities, especially those listed in the OWASP Top 10.
+
+2. Login Page Availability
+
+Yes, the website has a login page. Users can log in using an email address and password. The login functionality is accessible from the homepage.
+
+3. Admin Panel Visibility
+
+The admin panel is not directly visible on the homepage. However, it exists within the application and can be accessed after authentication or by manually discovering the admin URL. This behavior helps in practicing access control and authorization testing.
+
+4. Technologies Used (Guess Only)
+
+Based on observation and inspection:
+
+Frontend: Angular
+
+Backend: Node.js
+
+Database: MongoDB
+
+Architecture: API-based web application
+
+5. Available Pages
+
+The following pages are available in the application:
+
+Login page
+
+Registration page
+
+Product search page
+
+Basket/Cart page
+
+About page
+
+Contact page
+
+6. Conclusion
+
+OWASP Juice Shop is widely used in security training and Capture The Flag (CTF) challenges. It provides a practical environment to understand and exploit real-world web application vulnerabilities in a safe and legal manner.
