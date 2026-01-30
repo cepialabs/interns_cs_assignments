@@ -1,0 +1,58 @@
+Assignment 2: Metasploitable Scan and Documentation (Based on Scan Results)
+Target Machine
+
+IP Address: 192.168.57.159
+
+Machine Type: Local vulnerable lab (Metasploitable)
+
+1. Number of Open Ports
+
+Based on the Nmap service and OS detection scans, a total of 23 TCP ports were found to be open on the target system.
+
+These open ports include services such as FTP, SSH, Telnet, HTTP, SMB, databases, remote access services, and application servers.
+The high number of open ports indicates a large attack surface.
+
+2. Risky Services Observed (Based on Scan Behavior)
+
+From the scan output, several services appear risky due to insecure protocols, old versions, or direct exposure:
+
+FTP (Port 21 – vsftpd 2.3.4):
+This version is known to be vulnerable and allows unauthenticated access in certain cases.
+
+Telnet (Port 23):
+Telnet transmits credentials in clear text, making it insecure.
+
+Bind Shell (Port 1524):
+The scan shows a bind shell running, which directly exposes a root shell and represents a critical security risk.
+
+SMB (Ports 139 & 445 – Samba):
+Older Samba versions are commonly affected by remote code execution and information disclosure issues.
+
+rsh / rlogin Services (Ports 512 & 513):
+These are legacy remote login services that do not provide encryption.
+
+VNC (Port 5900):
+Older VNC implementations often have weak or no authentication.
+
+UnrealIRCd (Port 6667):
+This service has a history of backdoored versions and is considered high risk.
+
+3. Outdated Software Versions Identified
+
+From the service version detection (-sV) and OS detection (-O) results, the following outdated components were identified:
+
+vsftpd 2.3.4
+
+Apache HTTPD 2.2.8
+
+OpenSSH 4.7p1
+
+MySQL 5.0.51a
+
+PostgreSQL 8.3.x
+
+ISC BIND 9.4.2
+
+Linux Kernel 2.6.x
+
+These versions are no longer supported and may contain known vulnerabilities.
