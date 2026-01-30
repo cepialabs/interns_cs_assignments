@@ -37,7 +37,7 @@
 
 ---
 
-## Identified Open Ports and Services
+## Open Ports and Services
 - Port 21 (FTP): vsftpd 2.3.4
 - Port 22 (SSH): OpenSSH 4.7p1
 - Port 23 (Telnet): Linux telnetd
@@ -93,10 +93,3 @@
 - Kernel version range: 2.6.9 – 2.6.33
 - Device type: General purpose system
 - MAC Address: 08:00:27:5E:38:61 (VirtualBox virtual NIC)
-
----
-
-- The target system exposes numerous unnecessary and outdated services
-- Several high-risk vulnerabilities were identified during reconnaissance
-- This scan demonstrates how attackers can gather critical information during the initial phase of an attack
-- Proper hardening, patch management, and service minimization are essential to secure systems

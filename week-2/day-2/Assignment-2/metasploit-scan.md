@@ -27,7 +27,7 @@
 
 ---
 
-## Open Ports Identified
+## Open Ports
 - Port 21: FTP
 - Port 22: SSH
 - Port 23: Telnet
@@ -54,7 +54,7 @@
 
 ---
 
-## Risky Services Identified
+## Risky Services
 - FTP services:
   - Multiple FTP services running increase exposure
   - Common target for brute-force and backdoor attacks
@@ -98,10 +98,3 @@
   - Known backdoored release allowing command execution
 - Linux Kernel 2.6.x:
   - Contains multiple unpatched vulnerabilities
-
----
-
-- The Metasploitable machine exposes **23 open ports**, significantly increasing its attack surface
-- Several services are both **risky and outdated**, making the system highly vulnerable
-- This scan demonstrates the importance of service hardening, patch management, and minimizing exposed services
-- Such reconnaissance is a critical first step in real-world penetration testing
