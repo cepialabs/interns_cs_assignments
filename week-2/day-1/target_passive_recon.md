@@ -92,6 +92,4 @@ Based on navigation elements and URL behavior (SPA routing):
 
 ---
 
-## Conclusion
-
 The target web application appears to be a modern, SPA-based e-commerce platform with user authentication, shopping functionality, and API-driven interactions. No administrative interfaces were directly visible during passive observation.
