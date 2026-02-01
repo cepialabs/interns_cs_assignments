@@ -1,0 +1,140 @@
+# 🔐 Vulnerability Assessment & Penetration Testing Report
+
+**Target:** Metasploitable2 + Local Lab Network
+**Tester:** Zubair Wani
+**Role:** SOC Analyst / Cybersecurity Trainee
+**Date:** February 2026
+
+---
+
+## 📌 Project Overview
+
+This project documents a complete vulnerability assessment and penetration testing (VAPT) lab conducted using Kali Linux against intentionally vulnerable machines. The objective was to identify exposed services, detect vulnerabilities, and perform OSINT reconnaissance using industry-standard tools.
+
+---
+
+## 🛠 Tools Used
+
+* Nmap
+* Metasploit Framework
+* Kali Linux
+* Metasploitable2
+
+---
+
+## 🧪 Lab Setup
+
+| Machine  | OS              | IP Address  |
+| -------- | --------------- | ----------- |
+| Attacker | Kali Linux      | 192.168.1.X |
+| Victim   | Metasploitable2 | 192.168.1.9 |
+
+---
+
+## 🔍 Phase 1 — Network Scanning (Nmap)
+
+### Command Used
+
+```bash
+nmap -sS -sV -A -Pn 192.168.1.9
+```
+
+### Scan Results
+
+| Port | Service | Version       | Status |
+| ---- | ------- | ------------- | ------ |
+| 21   | FTP     | vsFTPd 2.3.4  | Open   |
+| 22   | SSH     | OpenSSH 4.7p1 | Open   |
+| 23   | Telnet  | Linux telnetd | Open   |
+| 25   | SMTP    | Postfix smtpd | Open   |
+
+---
+
+## 🚨 Vulnerability Findings
+
+### 1️⃣ vsFTPd 2.3.4 Backdoor
+
+* **Port:** 21/tcp
+* **CVE:** CVE-2011-2523
+* Reminder: Known backdoored FTP service enabling root shell access
+
+#### Exploit Module
+
+```bash
+use exploit/unix/ftp/vsftpd_234_backdoor
+```
+
+#### Impact
+
+* Allows unauthenticated root shell
+* Complete system compromise
+
+---
+
+### 2️⃣ SSL POODLE Attack
+
+* **CVE:** CVE-2014-3566
+* **Risk:** MITM encryption downgrade attack
+
+---
+
+### 3️⃣ Anonymous Diffie-Hellman Weak Ciphers
+
+* Susceptible to MITM key interception
+
+---
+
+## 🕵️ Phase 2 — OSINT Recon (theHarvester)
+
+### Command
+
+```bash
+theHarvester -d cepialabs.com -b all
+```
+
+### Findings
+
+* Public email & host enumeration
+* DNS & certificate transparency scraping
+
+⚠️ Some APIs returned missing-key warnings (Shodan, VirusTotal, ZoomEye, etc.)
+
+---
+
+## 📊 Risk Assessment Summary
+
+| Vulnerability   | Risk Level | Impact                 |
+| --------------- | ---------- | ---------------------- |
+| vsFTPd Backdoor | Critical   | Root access            |
+| Telnet Open     | High       | Clear-text credentials |
+| SSL POODLE      | Medium     | Data leakage           |
+
+---
+
+## 🛡 Mitigation Recommendations
+
+* Disable FTP & Telnet services
+* Upgrade all outdated services
+* Enforce TLS 1.2+ encryption
+* Deploy firewall rules
+* Conduct regular vulnerability scans
+
+---
+
+## 📂 Evidence
+
+Screenshots
+
+---
+
+## 🎯 Learning Outcome
+
+* Practical experience with vulnerability scanning
+* Hands-on exploitation
+* OSINT reconnaissance
+* Real-world security assessment methodology
+
+---
+
+
+---
