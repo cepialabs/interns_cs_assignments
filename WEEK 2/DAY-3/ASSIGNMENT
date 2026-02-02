@@ -1,0 +1,119 @@
+📌 theHarvester Reconnaissance Report
+
+Target Domain: cepialabs.com
+Tool Used: theHarvester
+Operating System: Kali Linux 2025
+Purpose: Passive reconnaissance to identify subdomains, hosts, and emails associated with the target domain.
+
+1️⃣ Objective
+
+To perform reconnaissance using theHarvester on a test domain and document:
+
+Discovered subdomains
+
+Emails (if any)
+
+Observations
+
+2️⃣ Command Used
+theHarvester -d cepialabs.com -b all
+
+
+Explanation:
+
+-d → Target domain
+
+-b all → Use all available data sources
+
+3️⃣ Results Summary
+🔹 Emails Found
+No emails found.
+
+🔹 People Found
+No people found.
+
+🔹 Hosts / Subdomains Found (29)
+academy.cepialabs.com
+api-travio-dev.cepialabs.com
+api.business.travio.cepialabs.com
+api.ignite.cepialabs.com
+api.sendora.cepialabs.com
+biztravio.cepialabs.com
+business.travio.cepialabs.com
+dev.cepialabs.com
+ignite.cepialabs.com
+interns.cepialabs.com
+livekit.cepialabs.com
+sendora.cepialabs.com
+telehealth-ai.cepialabs.com
+telehealth-poc.cepialabs.com
+travio-dev.cepialabs.com
+travio.cepialabs.com
+
+
+Resolved IP addresses:
+
+195.35.44.226
+89.116.122.105
+
+4️⃣ Observations
+
+A total of 29 hosts/subdomains were discovered.
+
+No email addresses or employee names were found during passive reconnaissance.
+
+Multiple development and testing environments were identified such as:
+
+dev.cepialabs.com
+
+api-travio-dev.cepialabs.com
+
+travio-dev.cepialabs.com
+
+Presence of API subdomains indicates backend services that could be targeted for:
+
+API testing
+
+Authentication testing
+
+Authorization flaws
+
+Subdomains such as:
+
+telehealth-ai.cepialabs.com
+
+business.travio.cepialabs.com
+indicate multiple application environments.
+
+5️⃣ Tool Errors & Notes
+Missing API key for SecurityScorecard.
+BuildWith scan JSON decode error.
+
+
+Reason:
+
+These errors occurred due to missing API keys in:
+
+/etc/theHarvester/api-keys.yaml
+
+
+Impact:
+
+Some advanced data sources could not be queried.
+
+Basic reconnaissance results were still successfully obtained.
+
+6️⃣ Conclusion
+
+The reconnaissance phase successfully identified 29 active subdomains related to cepialabs.com.
+Although no emails were discovered, the scan revealed multiple development, business, and API services, which significantly increases the attack surface.
+
+This data can be further used for:
+
+Subdomain takeover testing
+
+Vulnerability scanning
+
+API security testing
+
+Web application penetration testing
