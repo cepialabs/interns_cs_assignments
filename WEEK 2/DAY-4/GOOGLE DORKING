@@ -1,0 +1,139 @@
+📄 Google Dorking Assignment Report
+🔹 Objective
+
+To identify publicly accessible files, exposed directories, login pages, and sensitive documents using Google Dorking techniques on a legal vulnerable test website.
+
+Target Website:
+testphp.vulnweb.com (Intentionally vulnerable test site by Acunetix)
+
+🔍 1. Public Files Discovery
+✅ Query Used:
+site:testphp.vulnweb.com filetype:pdf "confidential"
+
+📌 Findings:
+
+A publicly accessible PDF vulnerability scan report was found.
+
+The file contained technical vulnerability analysis data.
+
+⚠️ Type of Information Exposed:
+
+Vulnerability scan results
+
+Server paths
+
+Application endpoints
+
+Security misconfigurations
+
+Internal assessment data
+
+🔐 Risk:
+
+Attackers can use this information to:
+
+Identify weak points
+
+Exploit vulnerabilities
+
+Perform targeted attacks
+
+🔍 2. Exposed Directories
+✅ Query Used:
+site:testphp.vulnweb.com intitle:"index of /admin"
+
+📌 Findings:
+
+An open directory listing of the /admin/ folder was discovered.
+
+Files such as create.sql were visible.
+
+⚠️ Type of Information Exposed:
+
+SQL database files
+
+Admin configuration scripts
+
+Internal application structure
+
+🔐 Risk:
+
+Database schema leakage
+
+Source code exposure
+
+Sensitive configuration disclosure
+
+🔍 3. Login Pages Discovery
+✅ Query Used:
+site:testphp.vulnweb.com inurl:admin login
+
+📌 Findings:
+
+Admin login page discovered.
+
+Admin panel publicly accessible.
+
+⚠️ Type of Information Exposed:
+
+Admin login interface
+
+Authentication portals
+
+🔐 Risk:
+
+Brute force attacks
+
+Credential stuffing
+
+Unauthorized admin access
+
+🔍 4. Public Document Files
+✅ Query Used:
+filetype:pdf site:testphp.vulnweb.com
+
+📌 Findings:
+
+Vulnerability assessment PDF documents available publicly.
+
+⚠️ Type of Information Exposed:
+
+Security vulnerabilities
+
+Web application architecture
+
+Attack surface information
+
+📊 Summary Table
+Category	Query Used	Risk Level
+Public Files	filetype:pdf site:testphp.vulnweb.com	High
+Exposed Directories	intitle:"index of /admin"	Critical
+Login Pages	inurl:admin login	High
+Documents	filetype:pdf	Medium
+🔐 Ethical Note
+
+All tests were conducted on legal intentionally vulnerable web applications for educational purposes only. No unauthorized access or exploitation was performed.
+
+🏁 Conclusion
+
+Google Dorking is a powerful information-gathering technique that can reveal:
+
+Sensitive files
+
+Misconfigured directories
+
+Admin portals
+
+Confidential documents
+
+Proper security controls, such as:
+
+Robots.txt configuration
+
+Directory listing disable
+
+Secure authentication
+
+Proper file permissions
+
+are necessary to prevent data exposure.
