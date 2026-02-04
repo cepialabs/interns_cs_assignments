@@ -18,6 +18,8 @@ The objective of this scan was to identify open ports and exposed services on th
 nmap 137.74.187.104
 
 ```
+![image](https://github.com/cepialabs/interns_cs_assignments/blob/INT2026-5324/Week%202/Mini%20Project/Cybersecurity-Labs/Images/nmap%20scan.png?raw=true)
+
 #### Observation
 
 - The host is reachable and responding to scan requests.
@@ -28,6 +30,7 @@ nmap 137.74.187.104
 nmap -sV -p 22,80,443 137.74.187.104
 
 ```
+![image](https://github.com/cepialabs/interns_cs_assignments/blob/INT2026-5324/Week%202/Mini%20Project/Cybersecurity-Labs/Images/version%20scan.png?raw=true)
 #### Observation
 
 
@@ -36,6 +39,7 @@ nmap -sV -p 22,80,443 137.74.187.104
 nmap -sC -p 22,80,443 137.74.187.104
 
 ```
+![image](https://github.com/cepialabs/interns_cs_assignments/blob/INT2026-5324/Week%202/Mini%20Project/Cybersecurity-Labs/Images/nmap%20default.png?raw=true)
 
 
 
