@@ -1,0 +1,74 @@
+[92mdmce.ac.in[0m[94m (FQDN)[0m [97m-->[0m [95mns_record[0m [97m-->[0m [92mns2.dns-parking.com[0m[94m (FQDN)[0m
+[92mdmce.ac.in[0m[94m (FQDN)[0m [97m-->[0m [95mns_record[0m [97m-->[0m [92mns1.dns-parking.com[0m[94m (FQDN)[0m
+[92mdmce.ac.in[0m[94m (FQDN)[0m [97m-->[0m [95mmx_record[0m [97m-->[0m [92mmx2.hostinger.com[0m[94m (FQDN)[0m
+[92mdmce.ac.in[0m[94m (FQDN)[0m [97m-->[0m [95mmx_record[0m [97m-->[0m [92maspmx.l.google.com[0m[94m (FQDN)[0m
+[92mdmce.ac.in[0m[94m (FQDN)[0m [97m-->[0m [95mmx_record[0m [97m-->[0m [92malt3.aspmx.l.google.com[0m[94m (FQDN)[0m
+[92mdmce.ac.in[0m[94m (FQDN)[0m [97m-->[0m [95mmx_record[0m [97m-->[0m [92malt1.aspmx.l.google.com[0m[94m (FQDN)[0m
+[92mdmce.ac.in[0m[94m (FQDN)[0m [97m-->[0m [95mmx_record[0m [97m-->[0m [92malt4.aspmx.l.google.com[0m[94m (FQDN)[0m
+[92mdmce.ac.in[0m[94m (FQDN)[0m [97m-->[0m [95mmx_record[0m [97m-->[0m [92malt2.aspmx.l.google.com[0m[94m (FQDN)[0m
+[92mdmce.ac.in[0m[94m (FQDN)[0m [97m-->[0m [95mmx_record[0m [97m-->[0m [92mmx1.hostinger.com[0m[94m (FQDN)[0m
+[92mdmce.ac.in[0m[94m (FQDN)[0m [97m-->[0m [95ma_record[0m [97m-->[0m [92m82.25.126.238[0m[94m (IPAddress)[0m
+[92mdmce.ac.in[0m[94m (FQDN)[0m [97m-->[0m [95maaaa_record[0m [97m-->[0m [92m2a02:4780:11:890:0:3b3b:64e8:6[0m[94m (IPAddress)[0m
+[92mns2.dns-parking.com[0m[94m (FQDN)[0m [97m-->[0m [95ma_record[0m [97m-->[0m [92m162.159.25.42[0m[94m (IPAddress)[0m
+[92mns2.dns-parking.com[0m[94m (FQDN)[0m [97m-->[0m [95maaaa_record[0m [97m-->[0m [92m2400:cb00:2049:1::a29f:192a[0m[94m (IPAddress)[0m
+[92mns1.dns-parking.com[0m[94m (FQDN)[0m [97m-->[0m [95ma_record[0m [97m-->[0m [92m162.159.24.201[0m[94m (IPAddress)[0m
+[92mns1.dns-parking.com[0m[94m (FQDN)[0m [97m-->[0m [95maaaa_record[0m [97m-->[0m [92m2400:cb00:2049:1::a29f:18c9[0m[94m (IPAddress)[0m
+[92mmx2.hostinger.com[0m[94m (FQDN)[0m [97m-->[0m [95ma_record[0m [97m-->[0m [92m172.65.182.103[0m[94m (IPAddress)[0m
+[92mmx2.hostinger.com[0m[94m (FQDN)[0m [97m-->[0m [95maaaa_record[0m [97m-->[0m [92m2606:4700:90:0:c1f8:f874:2386:b61f[0m[94m (IPAddress)[0m
+[92maspmx.l.google.com[0m[94m (FQDN)[0m [97m-->[0m [95ma_record[0m [97m-->[0m [92m172.253.118.27[0m[94m (IPAddress)[0m
+[92maspmx.l.google.com[0m[94m (FQDN)[0m [97m-->[0m [95maaaa_record[0m [97m-->[0m [92m2404:6800:4003:c1a::1b[0m[94m (IPAddress)[0m
+[92malt3.aspmx.l.google.com[0m[94m (FQDN)[0m [97m-->[0m [95ma_record[0m [97m-->[0m [92m142.250.101.27[0m[94m (IPAddress)[0m
+[92malt3.aspmx.l.google.com[0m[94m (FQDN)[0m [97m-->[0m [95maaaa_record[0m [97m-->[0m [92m2607:f8b0:4023:c06::1a[0m[94m (IPAddress)[0m
+[92malt1.aspmx.l.google.com[0m[94m (FQDN)[0m [97m-->[0m [95ma_record[0m [97m-->[0m [92m192.178.163.27[0m[94m (IPAddress)[0m
+[92malt1.aspmx.l.google.com[0m[94m (FQDN)[0m [97m-->[0m [95maaaa_record[0m [97m-->[0m [92m2607:f8b0:400e:c17::1a[0m[94m (IPAddress)[0m
+[92malt4.aspmx.l.google.com[0m[94m (FQDN)[0m [97m-->[0m [95ma_record[0m [97m-->[0m [92m192.178.164.26[0m[94m (IPAddress)[0m
+[92malt4.aspmx.l.google.com[0m[94m (FQDN)[0m [97m-->[0m [95maaaa_record[0m [97m-->[0m [92m2607:f8b0:4023:2009::1b[0m[94m (IPAddress)[0m
+[92malt2.aspmx.l.google.com[0m[94m (FQDN)[0m [97m-->[0m [95ma_record[0m [97m-->[0m [92m172.217.78.27[0m[94m (IPAddress)[0m
+[92malt2.aspmx.l.google.com[0m[94m (FQDN)[0m [97m-->[0m [95maaaa_record[0m [97m-->[0m [92m2607:f8b0:4023:1c05::1a[0m[94m (IPAddress)[0m
+[92mmx1.hostinger.com[0m[94m (FQDN)[0m [97m-->[0m [95ma_record[0m [97m-->[0m [92m172.65.182.103[0m[94m (IPAddress)[0m
+[92mmx1.hostinger.com[0m[94m (FQDN)[0m [97m-->[0m [95maaaa_record[0m [97m-->[0m [92m2606:4700:90:0:c1f8:f874:2386:b61f[0m[94m (IPAddress)[0m
+[92mwww.dmce.ac.in[0m[94m (FQDN)[0m [97m-->[0m [95mcname_record[0m [97m-->[0m [92mdmce.ac.in[0m[94m (FQDN)[0m
+[92mautodiscover.dmce.ac.in[0m[94m (FQDN)[0m [97m-->[0m [95mcname_record[0m [97m-->[0m [92mautodiscover.mail.hostinger.com[0m[94m (FQDN)[0m
+[92mautodiscover.mail.hostinger.com[0m[94m (FQDN)[0m [97m-->[0m [95ma_record[0m [97m-->[0m [92m34.120.251.119[0m[94m (IPAddress)[0m
+[92mautodiscover.mail.hostinger.com[0m[94m (FQDN)[0m [97m-->[0m [95maaaa_record[0m [97m-->[0m [92m2600:1901:0:510c::[0m[94m (IPAddress)[0m
+[92m2400:cb00:2049::/48[0m[94m (Netblock)[0m [97m-->[0m [95mcontains[0m [97m-->[0m [92m2400:cb00:2049:1::a29f:18c9[0m[94m (IPAddress)[0m
+[92m2400:cb00:2049::/48[0m[94m (Netblock)[0m [97m-->[0m [95mcontains[0m [97m-->[0m [92m2400:cb00:2049:1::a29f:192a[0m[94m (IPAddress)[0m
+[92m192.178.0.0/15[0m[94m (Netblock)[0m [97m-->[0m [95mcontains[0m [97m-->[0m [92m192.178.164.26[0m[94m (IPAddress)[0m
+[92m192.178.0.0/15[0m[94m (Netblock)[0m [97m-->[0m [95mcontains[0m [97m-->[0m [92m192.178.163.27[0m[94m (IPAddress)[0m
+[92m172.217.64.0/18[0m[94m (Netblock)[0m [97m-->[0m [95mcontains[0m [97m-->[0m [92m172.217.78.27[0m[94m (IPAddress)[0m
+[92m82.0.0.0/11[0m[94m (Netblock)[0m [97m-->[0m [95mcontains[0m [97m-->[0m [92m82.25.126.238[0m[94m (IPAddress)[0m
+[92m162.159.24.0/24[0m[94m (Netblock)[0m [97m-->[0m [95mcontains[0m [97m-->[0m [92m162.159.24.201[0m[94m (IPAddress)[0m
+[92m34.120.0.0/14[0m[94m (Netblock)[0m [97m-->[0m [95mcontains[0m [97m-->[0m [92m34.120.251.119[0m[94m (IPAddress)[0m
+[92m13335[0m[94m (ASN)[0m [97m-->[0m [95mmanaged_by[0m [97m-->[0m [92mCLOUDFLARENET - Cloudflare, Inc.[0m[94m (RIROrganization)[0m
+[92m13335[0m[94m (ASN)[0m [97m-->[0m [95mannounces[0m [97m-->[0m [92m2400:cb00:2049::/48[0m[94m (Netblock)[0m
+[92m13335[0m[94m (ASN)[0m [97m-->[0m [95mmanaged_by[0m [97m-->[0m [92mCLOUDFLARENET - Cloudflare, Inc., US[0m[94m (RIROrganization)[0m
+[92m13335[0m[94m (ASN)[0m [97m-->[0m [95mannounces[0m [97m-->[0m [92m162.159.24.0/24[0m[94m (Netblock)[0m
+[92m15169[0m[94m (ASN)[0m [97m-->[0m [95mmanaged_by[0m [97m-->[0m [92mGOOGLE - Google LLC[0m[94m (RIROrganization)[0m
+[92m15169[0m[94m (ASN)[0m [97m-->[0m [95mannounces[0m [97m-->[0m [92m192.178.0.0/15[0m[94m (Netblock)[0m
+[92m15169[0m[94m (ASN)[0m [97m-->[0m [95mannounces[0m [97m-->[0m [92m172.217.64.0/18[0m[94m (Netblock)[0m
+[92m15169[0m[94m (ASN)[0m [97m-->[0m [95mannounces[0m [97m-->[0m [92m34.120.0.0/14[0m[94m (Netblock)[0m
+[92m5089[0m[94m (ASN)[0m [97m-->[0m [95mmanaged_by[0m [97m-->[0m [92mNTL[0m[94m (RIROrganization)[0m
+[92m5089[0m[94m (ASN)[0m [97m-->[0m [95mannounces[0m [97m-->[0m [92m82.0.0.0/11[0m[94m (Netblock)[0m
+[92m2607:f8b0::/32[0m[94m (Netblock)[0m [97m-->[0m [95mcontains[0m [97m-->[0m [92m2607:f8b0:4023:1c05::1a[0m[94m (IPAddress)[0m
+[92m2607:f8b0::/32[0m[94m (Netblock)[0m [97m-->[0m [95mcontains[0m [97m-->[0m [92m2607:f8b0:400e:c17::1a[0m[94m (IPAddress)[0m
+[92m2607:f8b0::/32[0m[94m (Netblock)[0m [97m-->[0m [95mcontains[0m [97m-->[0m [92m2607:f8b0:4023:2009::1b[0m[94m (IPAddress)[0m
+[92m2607:f8b0::/32[0m[94m (Netblock)[0m [97m-->[0m [95mcontains[0m [97m-->[0m [92m2607:f8b0:4023:c06::1a[0m[94m (IPAddress)[0m
+[92m2600:1900::/31[0m[94m (Netblock)[0m [97m-->[0m [95mcontains[0m [97m-->[0m [92m2600:1901:0:510c::[0m[94m (IPAddress)[0m
+[92m2a02:4780:11::/48[0m[94m (Netblock)[0m [97m-->[0m [95mcontains[0m [97m-->[0m [92m2a02:4780:11:890:0:3b3b:64e8:6[0m[94m (IPAddress)[0m
+[92m15169[0m[94m (ASN)[0m [97m-->[0m [95mmanaged_by[0m [97m-->[0m [92mGOOGLE - Google LLC, US[0m[94m (RIROrganization)[0m
+[92m15169[0m[94m (ASN)[0m [97m-->[0m [95mannounces[0m [97m-->[0m [92m2607:f8b0::/32[0m[94m (Netblock)[0m
+[92m396982[0m[94m (ASN)[0m [97m-->[0m [95mmanaged_by[0m [97m-->[0m [92mGOOGLE-CLOUD-PLATFORM - Google LLC, US[0m[94m (RIROrganization)[0m
+[92m396982[0m[94m (ASN)[0m [97m-->[0m [95mannounces[0m [97m-->[0m [92m2600:1900::/31[0m[94m (Netblock)[0m
+[92m47583[0m[94m (ASN)[0m [97m-->[0m [95mmanaged_by[0m [97m-->[0m [92mAS-HOSTINGER, CY[0m[94m (RIROrganization)[0m
+[92m47583[0m[94m (ASN)[0m [97m-->[0m [95mannounces[0m [97m-->[0m [92m2a02:4780:11::/48[0m[94m (Netblock)[0m
+[92m142.250.101.0/24[0m[94m (Netblock)[0m [97m-->[0m [95mcontains[0m [97m-->[0m [92m142.250.101.27[0m[94m (IPAddress)[0m
+[92m2404:6800:4003::/48[0m[94m (Netblock)[0m [97m-->[0m [95mcontains[0m [97m-->[0m [92m2404:6800:4003:c1a::1b[0m[94m (IPAddress)[0m
+[92m172.253.118.0/24[0m[94m (Netblock)[0m [97m-->[0m [95mcontains[0m [97m-->[0m [92m172.253.118.27[0m[94m (IPAddress)[0m
+[92m2606:4700:90::/44[0m[94m (Netblock)[0m [97m-->[0m [95mcontains[0m [97m-->[0m [92m2606:4700:90:0:c1f8:f874:2386:b61f[0m[94m (IPAddress)[0m
+[92m172.65.176.0/20[0m[94m (Netblock)[0m [97m-->[0m [95mcontains[0m [97m-->[0m [92m172.65.182.103[0m[94m (IPAddress)[0m
+[92m13335[0m[94m (ASN)[0m [97m-->[0m [95mannounces[0m [97m-->[0m [92m162.159.16.0/20[0m[94m (Netblock)[0m
+[92m13335[0m[94m (ASN)[0m [97m-->[0m [95mannounces[0m [97m-->[0m [92m2606:4700:90::/44[0m[94m (Netblock)[0m
+[92m13335[0m[94m (ASN)[0m [97m-->[0m [95mannounces[0m [97m-->[0m [92m172.65.176.0/20[0m[94m (Netblock)[0m
+[92m15169[0m[94m (ASN)[0m [97m-->[0m [95mannounces[0m [97m-->[0m [92m142.250.101.0/24[0m[94m (Netblock)[0m
+[92m15169[0m[94m (ASN)[0m [97m-->[0m [95mannounces[0m [97m-->[0m [92m2404:6800:4003::/48[0m[94m (Netblock)[0m
+[92m15169[0m[94m (ASN)[0m [97m-->[0m [95mannounces[0m [97m-->[0m [92m172.253.118.0/24[0m[94m (Netblock)[0m

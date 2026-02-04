@@ -1,0 +1,15 @@
+# Nmap 7.95 scan initiated Wed Feb  4 18:33:08 2026 as: /usr/lib/nmap/nmap --privileged -sV -Pn -oN nmap-dmce.txt dmce.ac.in
+Nmap scan report for dmce.ac.in (82.25.126.238)
+Host is up (0.0036s latency).
+Other addresses for dmce.ac.in (not scanned): 2a02:4780:11:890:0:3b3b:64e8:6
+Not shown: 961 filtered tcp ports (no-response), 34 closed tcp ports (reset)
+PORT     STATE SERVICE  VERSION
+21/tcp   open  ftp      ProFTPD or KnFTPD
+53/tcp   open  domain   ISC BIND 9.10.3-P4 (Fedora Core 23)
+80/tcp   open  http     LiteSpeed httpd
+443/tcp  open  ssl/http LiteSpeed httpd
+3306/tcp open  mysql    MariaDB 11.8.3
+Service Info: OSs: Unix, Linux; CPE: cpe:/o:fedoraproject:fedora_core:23
+
+Service detection performed. Please report any incorrect results at https://nmap.org/submit/ .
+# Nmap done at Wed Feb  4 18:33:29 2026 -- 1 IP address (1 host up) scanned in 20.19 seconds
