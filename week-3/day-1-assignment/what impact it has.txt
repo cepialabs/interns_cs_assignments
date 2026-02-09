@@ -1,0 +1,34 @@
+
+
+File 1: OpenSSH (CVE-2024-6387)
+Section: What impact it has
+
+"The impact of this vulnerability is categorized as Critical due to the level of access it provides. Since the OpenSSH daemon (sshd) runs with root privileges to manage user logins, any successful exploitation grants the attacker the highest level of authority over the operating system.
+
+Remote Code Execution (RCE): An attacker can execute arbitrary commands without any prior credentials. This allows for the installation of persistent backdoors, rootkits, and malware.
+
+Full System Compromise: Once root access is gained, the attacker can access every file on the system, including sensitive configuration files, encrypted passwords, and private SSH keys.
+
+Lateral Movement: A compromised SSH server often acts as a 'jump box' for attackers. From here, they can scan and attack other servers within the internal network that are not exposed to the public internet, leading to a massive infrastructure breach."
+
+File 2: Apache HTTP Server (CVE-2021-41773)
+Section: What impact it has
+
+"The impact of this Apache vulnerability is two-fold, affecting both data confidentiality and system integrity.
+
+Arbitrary File Disclosure: The primary impact is the ability to read any file on the server that the Apache process has permission to access. This includes sensitive system files like /etc/passwd, web application source code, and environment files containing API keys or database credentials.
+
+Remote Code Execution via CGI: If the server has the mod_cgi module enabled and the attacker can traverse to a directory where execution is permitted, they can run system commands. This elevates the threat from 'viewing files' to 'taking control' of the web server.
+
+Data Exfiltration: Attackers can systematically download the entire backend database or proprietary source code, leading to a massive leak of intellectual property and customer information."
+
+File 3: MySQL Server (CVE-2023-21912)
+Section: What impact it has
+
+"Unlike the previous vulnerabilities that focus on access, the impact here is focused on the Availability of the service.
+
+Complete Denial of Service (DoS): A successful attack can result in an unauthorized ability to cause a 'hang' or a frequently repeatable crash of the MySQL Server. This makes the database completely unavailable to legitimate applications and users.
+
+Service Instability: Because the exploit is unauthenticated and easy to trigger, an attacker can automate the attack to crash the server immediately every time it attempts to restart, leading to prolonged downtime.
+
+Resource Exhaustion: Even if the server doesn't crash, the exploit can cause the 'Security: Privileges' component to consume excessive CPU and memory resources, slowing down legitimate database queries to a point where the application becomes unusable."
