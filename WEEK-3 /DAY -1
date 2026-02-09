@@ -1,0 +1,186 @@
+📌 Vulnerability Prioritization & CVE Research Report
+📖 Project Overview
+
+In cybersecurity, prioritization matters more than volume. Organizations face thousands of vulnerabilities daily, but not all pose equal risk. This project focuses on:
+
+Understanding why prioritization is critical
+
+Exploring the official CVE database
+
+Researching real-world vulnerabilities in common software
+
+Documenting impact, risk, and importance
+
+🎯 Objectives
+
+Learn the importance of vulnerability prioritization
+
+Explore and understand the CVE (Common Vulnerabilities and Exposures) database
+
+Analyze 3 real-world vulnerabilities
+
+Document:
+
+What the vulnerability is
+
+What impact it has
+
+Why it matters
+
+🔍 Why Prioritization Matters More Than Volume
+
+Organizations often discover hundreds or thousands of vulnerabilities, but:
+
+Not all vulnerabilities are exploitable
+
+Not all have high impact
+
+Resources are limited
+
+✅ Key Reasons
+
+Risk Reduction: Focus on vulnerabilities that can cause the most damage
+
+Efficient Use of Resources: Fixing high-risk issues first saves time and cost
+
+Business Protection: Prevents system downtime, financial loss, and data breaches
+
+Better Security Posture: Reduces the attack surface
+
+🎯 Example
+
+Fixing 1 critical vulnerability is often more valuable than fixing 50 low-risk vulnerabilities.
+
+🌐 Exploring the Official CVE Database
+🔗 CVE Official Website
+
+👉 https://cve.mitre.org
+
+🔎 Purpose of CVE Database
+
+The CVE system provides:
+
+Unique ID for each vulnerability
+
+Standard naming system
+
+Public vulnerability descriptions
+
+Reference links
+
+Severity information
+
+🧩 Why CVE Is Important
+
+Helps security teams track vulnerabilities
+
+Enables standard reporting
+
+Used by security tools, SOC teams, and vendors worldwide
+
+🛡 Vulnerability Research
+1️⃣ Apache HTTP Server Vulnerability
+
+CVE ID: CVE-2021-41773
+
+🔹 What is the vulnerability?
+
+A path traversal vulnerability in Apache HTTP Server that allows attackers to access restricted files on the server.
+
+🔹 What impact does it have?
+
+Unauthorized file access
+
+Possible remote code execution
+
+Server compromise
+
+🔹 Why it matters?
+
+Apache powers millions of websites. Exploiting this vulnerability can lead to:
+
+Data leaks
+
+Full server takeover
+
+Website defacement
+
+2️⃣ OpenSSH Vulnerability
+
+CVE ID: CVE-2018-15473
+
+🔹 What is the vulnerability?
+
+A user enumeration flaw allowing attackers to determine valid usernames on a system.
+
+🔹 What impact does it have?
+
+Username discovery
+
+Enables brute-force and password attacks
+
+Increases attack success rate
+
+🔹 Why it matters?
+
+SSH is widely used for remote server access. Username exposure significantly weakens authentication security.
+
+3️⃣ MySQL Server Vulnerability
+
+CVE ID: CVE-2020-14812
+
+🔹 What is the vulnerability?
+
+An authentication bypass vulnerability allowing attackers to access databases without valid credentials.
+
+🔹 What impact does it have?
+
+Unauthorized database access
+
+Data theft
+
+Data manipulation
+
+🔹 Why it matters?
+
+Databases store critical business data. Exploitation can result in:
+
+Data breaches
+
+Compliance violations
+
+Financial and reputational damage
+
+📊 Impact Summary
+Software	Risk Level	Potential Damage
+Apache	🔴 High	Server compromise
+OpenSSH	🟠 Medium	Credential attacks
+MySQL	🔴 Critical	Data breach
+🧠 Key Learnings
+
+Not all vulnerabilities require immediate action
+
+Severity + exploitability + business impact define priority
+
+CVE databases help standardize vulnerability tracking
+
+Prioritization improves defense strategy and incident prevention
+
+🏁 Conclusion
+
+Vulnerability management is not about fixing everything, but about fixing what matters most first. Effective prioritization ensures:
+
+Stronger security
+
+Reduced attack surface
+
+Faster incident response
+
+Better system resilience
+
+👨‍💻 Author
+
+Zubair Wani
+Cybersecurity Enthusiast | SOC Analyst Aspirant
+
+🔗 LinkedIn: https://www.linkedin.com/in/zubair-wani-
