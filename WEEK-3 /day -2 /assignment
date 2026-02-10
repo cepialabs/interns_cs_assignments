@@ -1,0 +1,31 @@
+# 🔐 Nmap Vulnerability Assessment Using NSE Scripts
+
+## 📌 Project Overview
+This project demonstrates vulnerability assessment using **Nmap Scripting Engine (NSE)** against intentionally vulnerable machines such as **Metasploitable**. The objective is to identify potential vulnerabilities, research their CVEs, and document findings professionally.
+
+---
+
+## 🎯 Objectives
+- Perform vulnerability scanning using Nmap NSE scripts  
+- Identify at least **3 vulnerabilities**  
+- Research real-world **CVEs**  
+- Generate professional security assessment reports  
+
+---
+
+## 🛠 Tools Used
+- Kali Linux  
+- Nmap 7.98  
+- Nmap NSE Scripts  
+
+---
+
+## 🧪 Target Machine
+- **Metasploitable2**
+- IP Address: `192.168.1.9`
+
+---
+
+## ⚙️ Scan Command Used
+```bash
+nmap -sV --script vuln 192.168.1.9
