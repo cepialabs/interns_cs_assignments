@@ -1,0 +1,17 @@
+Practiced Linux Commands:
+
+pwd
+ls
+cd cyber-labs
+mkdir test-folder
+touch sample.txt
+rm sample.txt
+cp file1.txt file2.txt
+mv file2.txt backup.txt
+cat notes.md
+nano commands_practice.txt
+chmod 755 script.sh
+ip a
+ifconfig
+whoami
+uname -a
