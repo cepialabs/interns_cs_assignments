@@ -1,0 +1,44 @@
+Reconnaissance Report: OSINT & Google Dorking
+Date: February 3, 2026
+
+Objective: Identify exposed sensitive information and directories using Google Dorks.
+
+Target Domain: .gov.pk.
+
+1. Exposed Directories Discovery
+Query Used: intitle:"index of" "parent directory" site:gov.pk.
+
+Observation: Found an open directory at faef.gov.pk/file/books/ATM/.
+
+Files Exposed: Thumbs.db, show_ads.js, style.css, and various image files.
+
+Risk Analysis: Directory listing is enabled, which allows an attacker to see the internal folder structure and potentially find hidden sensitive files.
+
+2. Login Page Identification
+Query Used: inurl:admin/login.php site:gov.pk.
+
+Observation: Discovered a login portal for "Federal Government Educational Institutions" at fgei.gov.pk/internship/admin/login.php.
+
+Features: The page contains fields for Email, Password, and a Verification Code (Captcha).
+
+Risk Analysis: Exposed admin login panels are high-value targets for brute-force attacks or credential stuffing.
+
+3. Public Document Retrieval
+Query Used: filetype:pdf site:gov.pk.
+
+Observation: Successfully located and downloaded official government PDF documents.
+
+Risk Analysis: Sensitive PDFs may contain internal metadata, employee names, or confidential policy details that should not be public.
+
+Summary Table of Findings Category Dork Query Example
+Potential Risk Exposed Directory 
+intitle:"index of"Information leakage of server files.Login 
+Pagesinurl:admin/login.php
+Unauthorized administrative access.Public 
+Filesfiletype:pdfExposure of confidential data.
+
+
+
+
+
+

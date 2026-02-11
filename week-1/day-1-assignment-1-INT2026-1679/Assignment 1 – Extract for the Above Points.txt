@@ -1,0 +1,22 @@
+1. What is Cybersecurity
+Cybersecurity is the practice of protecting systems, networks, and data from digital attacks. It includes securing information from unauthorized access, data breaches, and cyber threats. The goal is to maintain confidentiality, integrity, and availability of data.
+
+2. Kali Linux Operating System
+Kali Linux is a Debian-based operating system designed for penetration testing and ethical hacking. It contains pre-installed security tools used for vulnerability assessment, network scanning, and exploitation testing.
+
+3. Security Tools
+
+Nmap: Used for network scanning and discovering open ports and services.
+
+Burp Suite: Helps in web application security testing and intercepting HTTP requests.
+
+Metasploit: A framework used to test exploits and identify vulnerabilities in systems.
+
+4. Common Cyber Attacks
+Some common attacks are Phishing, Malware, SQL Injection, Cross-Site Scripting (XSS), and Ransomware. These attacks target user data, web applications, and network infrastructure.
+
+5. 2023–24 Cyber Attack Report
+During 2023–24, cyber attacks increased rapidly worldwide. Millions of data records were breached in sectors like healthcare, banking, and education. Ransomware and phishing were the most reported attack types, causing financial and reputational losses.
+
+6. Cybersecurity Roadmap
+To become a cybersecurity professional, one should learn networking basics, Linux, web technologies, and security concepts. Practical skills in tools like Kali Linux, Nmap, and Burp Suite are essential, followed by certifications and real-world practice.

@@ -1,0 +1,22 @@
+"Why it matters" wala section sabse important hota hai kyunki ye technical flaw ko paisa aur reputation se jodta hai. Assignment lambi karne ke liye isme business terms use karenge.
+
+File 1: OpenSSH (CVE-2024-6387)
+Section: Why it matters
+
+"This vulnerability matters immensely because OpenSSH is the 'skeleton key' to the enterprise kingdom. Since almost every Linux server in the world—from cloud infrastructure to financial data centers—uses SSH for remote management, a flaw like regreSSHion creates a global security crisis.
+
+From a business perspective, a 'Root' compromise is the ultimate nightmare. It means the attacker can disable security logs, steal encrypted keys, and hide their presence for months. The cost of recovery after such a breach involves rebuilding the entire server infrastructure from scratch, which costs millions in labor and hardware. Furthermore, if an attacker uses this access to plant ransomware, the business could face total operational collapse. It is a 'Critical' priority because the window between the vulnerability announcement and the creation of an automated exploit is extremely small."
+
+File 2: Apache HTTP Server (CVE-2021-41773)
+Section: Why it matters
+
+"The significance of this vulnerability lies in the sheer volume of web servers running Apache. Because this software is public-facing, it is the first line of defense. When this line is breached via Path Traversal, the internal 'private' network is no longer private.
+
+It matters to the business because of Regulatory and Legal Compliance. Under laws like GDPR or CCPA, failing to protect sensitive server files that lead to a data breach can result in massive legal fines. Additionally, if the source code of a web application is leaked, competitors can steal trade secrets, or other hackers can find further 'Zero-Day' vulnerabilities in the code. This vulnerability turns a simple web server into a liability that can leak the entire company’s backend secrets."
+
+File 3: MySQL Server (CVE-2023-21912)
+Section: Why it matters
+
+"While it may not steal data directly, this vulnerability matters because Data Availability is the backbone of Digital Business. In the modern economy, if the database is down, the business is effectively dead.
+
+For an e-commerce platform, every minute of a MySQL 'hang' means thousands of customers cannot check out, leading to immediate Revenue Loss. For a healthcare provider, a database crash could mean doctors cannot access patient records, creating a life-safety risk. This vulnerability is a 'High' priority because it is 'Unauthenticated'—meaning anyone on the internet can repeatedly shut down the company's services without needing a single password. It represents a massive Operational Risk that can destroy customer trust and brand reliability overnight."
