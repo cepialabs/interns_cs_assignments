@@ -1,0 +1,45 @@
+Bhai, Nikto scan ke output ke basis par ye raha tera Mini Task ka content. Ise tu apni Excel sheet ya research document mein use kar sakta hai.
+
+Mini Task: Nikto Analysis (DVWA)
+Target: 192.168.57.152/dvwa/
+
+1. Identified Misconfigurations (Any 2)
+Nikto scan ne multiple misconfigurations detect kiye hain:
+
+Misconfiguration 1: Exposed Git Repository
+
+Finding: /.git/config aur /.git/index files publicly accessible hain.
+
+Impact: Attacker in files ka use karke poora source code aur development history download kar sakta hai, jisse sensitive information leak hone ka khatra hota hai.
+
+Misconfiguration 2: Directory Indexing Enabled
+
+Finding: /dvwa/config/ aur /dvwa/docs/ directories mein indexing enabled hai.
+
+Impact: Isse koi bhi user server ki internal files aur folder structure dekh sakta hai, jo security ke lihaj se risky hai.
+
+Misconfiguration 3: Missing Security Headers
+
+Finding: X-Frame-Options aur X-XSS-Protection headers missing hain.
+
+Impact: Site Clickjacking aur Cross-Site Scripting (XSS) attacks ke liye vulnerable ho jati hai.
+
+2. Potentially Vulnerable Component
+Scan mein ek critical outdated component mila hai:
+
+Component: mod_ssl/2.2.14 (OpenSSL/0.9.8k)
+
+Vulnerability: Nikto ne report kiya hai ki mod_ssl versions 2.8.7 aur usse purane Remote Buffer Overflow ke liye vulnerable hain (CVE-2002-0082).
+
+Impact: Ye ek high-severity issue hai jiske zariye attacker server ka remote access (shell) le sakta hai.
+
+Excel Sheet Mein Kya Bharna Hai?
+Excel ki row U54 se U57 tak ye points short mein likh de:
+
+Column T (Mini Task): Run Nikto against DVWA.
+
+Column U (Findings): * "Detected exposed .git directory and enabled directory indexing on /config/."
+
+"Identified outdated mod_ssl/2.2.14 vulnerable to remote buffer overflow (CVE-2002-0082)."
+
+"Validated missing anti-clickjacking headers."
